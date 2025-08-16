@@ -1,0 +1,268 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20250806144652
+Nombre de usuario: AULA403-15\Aula403-15
+Usuario RunAs: AULA403-15\Aula403-15
+Nombre de la configuración: 
+Máquina: AULA403-15 (Microsoft Windows NT 10.0.26100.0)
+Aplicación host: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Id. de proceso: 10192
+PSVersion: 5.1.26100.4652
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.4652
+BuildVersion: 10.0.26100.4652
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es E:\prueba.txt
+PS C:\Users\Aula403-15> Get-Date
+
+miércoles, 6 de agosto de 2025 02:47:09 p. m.
+
+
+PS C:\Users\Aula403-15> Get-Location
+
+Path
+----
+C:\Users\Aula403-15
+
+
+PS C:\Users\Aula403-15> Clear-Host
+PS C:\Users\Aula403-15> Get-Process
+
+Handles  NPM(K)    PM(K)      WS(K)     CPU(s)     Id  SI ProcessName
+-------  ------    -----      -----     ------     --  -- -----------
+    294      17    15456       7064       1.05   2820   2 AppActions
+    415      22    13988       8960       1.00   3360   2 ApplicationFrameHost
+    258      14     4036        204       0.11   5828   2 backgroundTaskHost
+    467      24    13416      10476       0.81  12676   2 CrossDeviceResume
+    647      23     2188       3268               748   0 csrss
+    599      21     2772       4508              7580   2 csrss
+    624      24    22304      19472      13.08   6228   2 ctfmon
+    223      13     2744      21108       0.11   9728   2 dllhost
+    244      13     2940      22200       0.14  10036   2 dllhost
+   1379      51   103096      73940             11236   2 dwm
+   5742     154   159444     241800     100.81   2060   2 explorer
+     42       7     1676        336               620   0 fontdrvhost
+     42       9     3512       2024              7680   2 fontdrvhost
+      0       0       60          8                 0   0 Idle
+    184      11     2004       2472              2224   0 igfxCUIService
+    327      16     3872       5804       0.89  12940   2 igfxEM
+    153       9     1524       1692              1412   0 IntelCpHDCPSvc
+    151       9     1556       2132              1656   0 IntelCpHeciSvc
+    143      10     1408        536              3476   0 jhi_service
+   1417      25     7852      14524              1016   0 lsass
+      0       0      852     167276              2264   0 Memory Compression
+    521      27    33860       1988       1.53  10468   2 Microsoft.SharePoint
+    216      15     2944       4860              1976   0 MicrosoftEdgeUpdate
+    516      18    11980      12332              3996   0 MpDefenderCoreService
+    176      10     8340      20508       0.09    456   2 msedge
+    159      10     8188      19500       0.08   1068   2 msedge
+    392      19    31220      50296       0.27   7576   2 msedge
+    210      17    15508      31940       0.14   7748   2 msedge
+    524      29    86740     139268       3.50  10856   2 msedge
+    162      10     2256       9904       0.05  11132   2 msedge
+    325      19    14792      43800       0.89  12552   2 msedge
+   1444      50    54388     151084       2.88  12880   2 msedge
+   1245      45    46060      53452      10.08   1616   2 msedgewebview2
+    171      10     8380       4944       0.19   4064   2 msedgewebview2
+    311      16    11020      15328       1.27   4208   2 msedgewebview2
+    147       9     2160       1960       0.05   4248   2 msedgewebview2
+    287      23    65644      82828       8.61   4796   2 msedgewebview2
+    163      10     8348       5100       0.22   5716   2 msedgewebview2
+    540      23    50892      13024       3.56   7640   2 msedgewebview2
+    536      22    36140      33356       2.34   7944   2 msedgewebview2
+    146       9     2212       1916       0.03   9808   2 msedgewebview2
+   1142      46    35112      55796       5.86  10112   2 msedgewebview2
+    363      43   240896     168904      38.09  11588   2 msedgewebview2
+    332      18    11364      22128       2.20  12440   2 msedgewebview2
+    977     233   310728     168912              4068   0 MsMpEng
+    984      43    31424      25812       5.95   6768   2 ms-teams
+    214      33     4172       4164              6024   0 NisSrv
+    276      19     4628       6368              5188   0 OcsService
+    215      17     4620       3688       1.44   9712   2 OcsSystray
+    696      27    38480      15660              3468   0 OfficeClickToRun
+    617      33    42968       7724              3420   0 OneApp.IGCC.WinService
+    870      52   163040     207716       7.08  10192   2 powershell_ise
+      0      18     4800      27428               124   0 Registry
+    137       9     2044       2556       0.16   4720   2 RuntimeBroker
+    831      34    13720      34324       4.45   5096   2 RuntimeBroker
+    209      12     2796      12620       0.48  12524   2 RuntimeBroker
+   1042      44    44300      85132      13.22  10320   2 SearchHost
+    844      20    20136      28316              6680   0 SearchIndexer
+    463      19     8036      10700              9108   0 SecurityHealthService
+    178      11     1892       4316       0.13  13156   2 SecurityHealthSystray
+    687      12     5256       7064               984   0 services
+    730      32    18592      54416       4.05   6608   2 ShellExperienceHost
+    413      20    11780       8300       0.67   9616   2 ShellHost
+    744      22     7796      21368      10.05   9444   2 sihost
+    177      11     2804      13040       0.03   2928   2 smartscreen
+     58       4     1148        352               544   0 smss
+    431      21     6004       5680              3160   0 spoolsv
+   1120      49    61264      83652      10.33   9224   2 StartMenuExperienceHost
+   1345      23    11568      23708               824   0 svchost
+    420      24     3636       5992              1048   0 svchost
+   1142      17     7280      11932              1128   0 svchost
+    973      20     6184      13268              1144   0 svchost
+    309      12     2816       4668              1184   0 svchost
+    215      12     2752       5660              1376   0 svchost
+    123      10     1576       2220              1436   0 svchost
+    167       9     1648       3400              1492   0 svchost
+    339      15     5696       9928              1548   0 svchost
+    215      11     2584       6840              1576   0 svchost
+    184      13     1932       5700              1672   0 svchost
+    246      11     2940       7384              1776   0 svchost
+    138       8     2744      10152              1876   0 svchost
+    451      13    15164      13120              1908   0 svchost
+    185      10     2096       4980              1916   0 svchost
+    135      22     4524       3220              1924   0 svchost
+    340      10     2364       5324              1944   0 svchost
+    239      13    90352      93456              2028   0 svchost
+    201       8     1364       1688              2040   0 svchost
+    189       7     1832       2404              2088   0 svchost
+    192      10     1920       3324              2336   0 svchost
+    179      11     2164       4380              2344   0 svchost
+    207      13     1896       2868              2352   0 svchost
+    191      15     6480       3124              2456   0 svchost
+    363      13     3288       8812              2512   0 svchost
+    246      22     2208       4040              2528   0 svchost
+    174      10     1900       4376              2592   0 svchost
+    124       8     1572       3420              2616   0 svchost
+    334      10    14256      18220              2764   0 svchost
+    383      17     3348       5360              2864   0 svchost
+    269      13     2828       7900              2872   0 svchost
+    262      11     2700       4352              2980   0 svchost
+    200      11     2084       3836              2988   0 svchost
+    466      13     2408       5732              3088   0 svchost
+    238      14     2640       7036              3120   0 svchost
+    450      31    11576      10088              3196   0 svchost
+    257      12     2796       6280              3212   0 svchost
+    179      10     1796       2980              3316   0 svchost
+    377      16    19776      21568              3428   0 svchost
+    307      27     3968      10640              3436   0 svchost
+    386      21     2888       6136              3456   0 svchost
+    261      12     5308       6020              3564   0 svchost
+    456      17     9832      14300              3572   0 svchost
+    131       7     1352        660              3620   0 svchost
+    398      18     4536      14344              3684   0 svchost
+    128       9     1716       1880              3700   0 svchost
+    122       8     1912       8960              3748   0 svchost
+    212      12     2284       4376              3964   0 svchost
+    252      13     3676      13368              4360   0 svchost
+    323      14     4500      11048              4656   0 svchost
+    218      11     2320       3132              4756   0 svchost
+    462      18     9432      22812              5212   0 svchost
+    252      13     2884       3516       0.20   5280   2 svchost
+    215      12     3176       5644              5732   0 svchost
+    321      15     4136      17776       0.36   6244   2 svchost
+    248      12     3132       5540              6352   0 svchost
+    137       9     1988       2220       0.11   6776   2 svchost
+    412      17     6784      18024       1.70   6972   2 svchost
+    328      17     6932       4312              7552   0 svchost
+    338      15     5496       8192       0.52   7864   2 svchost
+    164      10     2612       2572              8052   0 svchost
+    240      13     3180       8644              8148   0 svchost
+    109       7     1236       7948              8824   0 svchost
+    201      11     2868       5688              9340   0 svchost
+    331      11     2808       4820              9408   0 svchost
+    306      15     3556      11596              9724   0 svchost
+    260      15     3656       8540       0.53   9772   2 svchost
+   1049      19     5648      13956             10496   0 svchost
+    155      42     1800       1436             11044   0 svchost
+    174      10     2384       5896       0.31  11532   2 svchost
+    174      10     3728      14156             12200   0 svchost
+    118       8     1384       6616             12204   0 svchost
+    128       8     1588       8488             12284   0 svchost
+   3997       0       72       9040                 4   0 System
+   1124      56    66376         68       1.83  12044   2 SystemSettings
+    594      28    18616      14352       4.39  11092   2 TabTip
+    303      29     6004      10444       0.83   5256   2 taskhostw
+   1017      34    24360      27308       5.67   1752   2 TextInputHost
+    129      10     1736       2180       0.11  10316   2 UserOOBEBroker
+    172      14     2440       2184              3956   0 vmnat
+    105      10     7940        860              4048   0 vmnetdhcp
+    234      17     4100        552              5248   0 vmware-authd
+    205      19     4032       1716       0.09   5720   2 vmware-tray
+    221      13     2948       5708              5224   0 vmware-usbarbitrator64
+    161      12     1624       1104               896   0 wininit
+    275      12     2676       6128             12592   2 winlogon
+    269      17     6556       7108              5380   0 WmiPrvSE
+    177      12     4116       9304             13088   0 WmiPrvSE
+    264      15     2740        684              3708   0 WMIRegistrationService
+    271      12     2112      11900              8480   0 WUDFHost
+
+
+PS C:\Users\Aula403-15> Get-Help dir
+
+NOMBRE
+    Get-ChildItem
+
+SINTAXIS
+    Get-ChildItem [[-Path] <string[]>] [[-Filter] <string>]  [<CommonParameters>]
+
+    Get-ChildItem [[-Filter] <string>]  [<CommonParameters>]
+
+
+ALIAS
+    gci
+    ls
+    dir
+
+
+NOTAS
+    Get-Help no encuentra los archivos de Ayuda para este cmdlet en el equipo. Mostrará solo una parte de la Ayuda.
+        -- Para descargar e instalar los archivos de Ayuda para el módulo que incluye este cmdlet, use Update-Help.
+        -- Para ver en línea el tema de Ayuda de este cmdlet, escriba "Get-Help Get-ChildItem -Online" o
+           vaya a https://go.microsoft.com/fwlink/?LinkID=113308.
+
+
+
+PS C:\Users\Aula403-15> Get-ChildItem
+
+
+    Directorio: C:\Users\Aula403-15
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----     26/06/2025  12:00 p. m.                .anaconda
+d-----     26/06/2025  01:42 p. m.                .conda
+d-----     26/06/2025  12:00 p. m.                .continuum
+d-----     25/06/2025  06:43 p. m.                .idlerc
+d-----     26/06/2025  11:59 a. m.                .vscode
+d-r---     04/06/2025  07:12 p. m.                Contacts
+d-r---     06/08/2025  08:51 a. m.                Desktop
+d-r---     06/08/2025  08:49 a. m.                Documents
+d-r---     06/08/2025  08:31 a. m.                Downloads
+d-r---     04/06/2025  07:12 p. m.                Favorites
+d-r---     04/06/2025  07:12 p. m.                Links
+d-r---     04/06/2025  07:12 p. m.                Music
+d-r---     04/06/2025  07:14 p. m.                OneDrive
+d-r---     05/08/2025  02:37 p. m.                Pictures
+d-r---     04/06/2025  07:12 p. m.                Saved Games
+d-r---     05/06/2025  11:54 a. m.                Searches
+d-r---     04/06/2025  07:12 p. m.                Videos
+-a----     26/06/2025  01:42 p. m.            146 .condarc
+-a----     06/08/2025  08:51 a. m.            423 .python_history
+
+
+PS C:\Users\Aula403-15> New-Item test.txt
+
+
+    Directorio: C:\Users\Aula403-15
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----     06/08/2025  02:48 p. m.              0 test.txt
+
+
+PS C:\Users\Aula403-15> $Host.UI.RawUI.BackgroundColor="DarkMagenta"
+PS C:\Users\Aula403-15> Clear-Host
+PS C:\Users\Aula403-15> Stop-Transcript
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20250806145034
+**********************

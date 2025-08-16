@@ -1,3 +1,4 @@
+ # Editado por Victor el 16/08/2025
 #Analizador de procesos
 $procesos = Get-Process
 $alertas = @()
